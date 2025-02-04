@@ -1,0 +1,3 @@
+# RecursionError in Python Recursive Function
+
+This repository demonstrates a common error in recursive functions in Python: exceeding the maximum recursion depth. The `bug.py` file contains a recursive function that lacks a proper termination condition, leading to a `RecursionError` when called with a large input. The `bugSolution.py` file provides a corrected version that addresses this issue by adding a check for the base case and handling it properly.  
